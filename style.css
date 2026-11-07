@@ -1,0 +1,29 @@
+#main-canvas {
+    display: fixed;
+    width: 100vw;
+    height: 100vh;
+}
+
+html, body {
+    margin:0;
+    height:100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    color: #181a1b;
+    background-color: #181a1b;
+}
+
+h1 {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    position: absolute;
+    color: white;
+}
+
+button {
+    margin: 10px;
+    position: fixed;
+}
